@@ -8,3 +8,179 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    background-color: #540B51;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.slack-logo {
+    width: 35%;
+}
+
+.div-nav-buttons {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-buttons {
+    border: none;
+    background-color: #540B51;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;   
+}
+.slack-free {
+color: #ECB12F;
+font-weight: bold;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.slack-screenshot {
+    width: 100vw;
+}
+
+.sign-ups {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 30px 20px;
+
+}
+
+.sign-ups button {
+    width:100%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    height: 70px;
+    margin: 10px;
+}
+
+.emailcolor {
+    color: #540B51;
+}
+
+.google-button {
+    background-color: #4285F4;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.google-button div {
+    width: 50px;
+}
+
+.google-button img {
+    background-color: #ffffff;
+    width: 30px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+
+.companies {
+    background-color:#F3EAE2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.companies p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.logo-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.logo-flex img {
+    object-fit: contain;
+    max-width: 30%;
+}
+
+
+
+.slack-survey {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slack-survey h3 {
+    color:#540B51;
+    font-size: 1.5rem;
+}
+
+.slack-survey > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.slack-survey ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.slack-survey li {
+    text-align: center;
+}
+
+
+hr {
+    color: #a5a4a4;
+}
+
+footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+    padding: 20px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.copywrite {
+    padding: 20px;
+    color: #a5a4a4;
+}
